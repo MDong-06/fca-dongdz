@@ -1,7 +1,7 @@
 {
-  "name": "fca-horizon-remastered",
-  "version": "1.5.2",
-  "description": "Facebook-chat-api protect and deploy by Kanzu and HZI Team",
+  "name": "fca-dongdz",
+  "version": "1.7.5",
+  "description": "Facebook chat API that doesn't rely on XMPP.",
   "main": "Index.js",
   "scripts": {
     "test": "mocha",
@@ -87,8 +87,8 @@
   },
   "keywords": [
     "Fca horizon",
-    "fca-horizon-remastered",
-    "horizon fca",
-    "horizon"
+    "fca-dongdz",
+    "fca",
+    "fb-chat-api"
   ]
 }
