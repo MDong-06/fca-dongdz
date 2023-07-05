@@ -1,6 +1,6 @@
 # Security Policy
 
-+ if have any Vulnerability finded contact: Author(KanzuWakazaki.Main@proton.me) or (Facebook.com/Lazic.Kanzu). Thanks!
++ if have any Vulnerability finded contact: Author( mdong382@gmail.com ) or (Facebook.com/mdonq). Thanks!
 
 ## Supported Versions
 
