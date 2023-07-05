@@ -23,7 +23,7 @@ module.exports = function (defaultFuncs, api, ctx) {
             }
             else {
                 database(true).set('agreement', true);
-                var Form = "=== Horizon end-user license agreement ===\n\n Free to use and edited ✨";
+                var Form = "=== Dongdz end-user license agreement ===\n\n Free to use and edited ✨";
                 callback(null, Form);
             }
         return returnPromise;
