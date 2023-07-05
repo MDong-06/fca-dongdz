@@ -40,7 +40,7 @@ module.exports = async function(Stable_Version) {
                         execSync('npm cache clean --force', { stdio: 'inherit' });
                         log.info("[ FCA-UPDATE ] •","Cache Cleaned, Trying Another Method 2...");
                         await new Promise(resolve => setTimeout(resolve, 3000));
-                        //self delete fca-horizon-remastered folder from node_modules
+                        //self delete fca-dongdz folder from node_modules
                         fs.rmdirSync((process.cwd() + "/node_modules/fca-dongdz" || __dirname + '../../../fca-dongdz'), { recursive: true });
                         await new Promise(resolve => setTimeout(resolve, 3000));
                         execSync(`npm install fca-dongdz@${Version}`, { stdio: 'inherit' });
@@ -54,7 +54,7 @@ module.exports = async function(Stable_Version) {
                         console.log(e);
                         log.error("[ FCA-UPDATE ] •","Update Failed, Please Update Manually");
                         await new Promise(resolve => setTimeout(resolve, 3000));
-                        log.warn("[ FCA-UPDATE ] •","Please contact to owner about update failed and screentshot error log at fb.com/Lazic.Kanzu");
+                        log.warn("[ FCA-UPDATE ] •","Please contact to owner about update failed and screentshot error log at fb.com/mdonq");
                         await new Promise(resolve => setTimeout(resolve, 3000));
                         process.exit(1);
                     }
