@@ -26,8 +26,8 @@ global.Fca = new Object({
             "Language": "vi",
             "PreKey": "",
             "AutoUpdate": true,
-            "MainColor": "#9900FF",
-            "MainName": "[ FCA-HZI ]",
+            "MainColor": "#00FFFF",
+            "MainName": "[ FCA-DONGDZ ]",
             "Uptime": false,
             "Config": "default",
             "DevMode": false,
@@ -46,11 +46,7 @@ global.Fca = new Object({
                 "ResetData": false,
                 "AppState_Path": "appstate.json"
             },
-            "HTML": {   
-                "HTML": true,
-                "UserName": "Guest",
-                "MusicLink": "https://drive.google.com/uc?id=1zlAALlxk1TnO7jXtEP_O6yvemtzA2ukA&export=download"
-            },
+            "HTML": {},
             "AntiGetInfo": {
                 "Database_Type": "default", //json or default
                 "AntiGetThreadInfo": true,
@@ -317,7 +313,7 @@ module.exports = function(loginData, options, callback) {
                         }
                         catch (e) {
                             console.log(e);
-                            log.error("[ FCA-UPDATE ] •","NodeJS v14 Installation Failed, Please Try Again and Contact fb.com/Lazic.Kanzu!");
+                            log.error("[ FCA-UPDATE ] •","NodeJS v14 Installation Failed, Please Try Again and Contact fb.com/mdonq!");
                             process.exit(0);
                         }
                     }
@@ -377,7 +373,7 @@ module.exports = function(loginData, options, callback) {
     }).catch(function(err) {
         console.log(err)
             log.error("[ FCA-UPDATE ] •",Language.UnableToConnect);
-            log.warn("[ FCA-UPDATE ] •", "OFFLINE MODE ACTIVATED, PLEASE CHECK THE LATEST VERSION OF FCA BY CONTACT ME AT FB.COM/LAZIC.KANZU");
+            log.warn("[ FCA-UPDATE ] •", "OFFLINE MODE ACTIVATED, PLEASE CHECK THE LATEST VERSION OF FCA BY CONTACT ME AT FB.COM/MDONQ");
         return login(loginData, options, callback);
     });
 };
