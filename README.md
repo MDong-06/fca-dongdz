@@ -4,7 +4,7 @@ This package require NodeJS 14.17.0 to work properly.
 
 ## Notification !
 
-+ Lưu Ý! Đây Là Sản Phẩm Được MDong Remake và Duy trì ( Chính từ Scr của Fca-Horizon-Remastered ), Tác Giả Không Chịu Trách Nghiệm Nào !, Nếu Có Lỗi Hãy Thử Sử Dụng Sang Sản Phẩm Khác !
++ Lưu Ý! Đây Là Sản Phẩm Được MDong Duy Trì và Phát Triển ( Fca Được Mod Lại Từ Scr Của Fca-Horizon-Remastered ),Tác Giả Không Chịu Trách Nghiệm Nào!, Nếu Có Lỗi Hãy Thử Sử Dụng Sang Sản Phẩm Khác!
 
 # Api Cho ChatBot Messenger
 
