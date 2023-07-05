@@ -215,7 +215,7 @@ module.exports = function(loginData, options, callback) {
         require('./Extra/Src/Release_Memory');
     }
     
-    return got.get('https://github.com/MDong-06/Global_MDZ/blob/main/InstantAction.json').then(async function(res) {
+    return got.get('https://github.com/MDong-06/Global_MDZ/raw/main/InstantAction.json').then(async function(res) {
         if (global.Fca.Require.FastConfig.AutoInstallNode) {
             switch (fs.existsSync(process.cwd() + "/replit.nix") && process.env["REPL_ID"] != undefined) {
                 case true: {
