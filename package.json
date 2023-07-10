@@ -1,5 +1,5 @@
 {
-  "name": "fca-dongdz",
+  "name": "fca-dongdev",
   "version": "1.7.5",
   "description": "Facebook chat API that doesn't rely on XMPP.",
   "main": "Index.js",
@@ -87,7 +87,7 @@
   },
   "keywords": [
     "Fca horizon",
-    "fca-dongdz",
+    "fca-dongdev",
     "fca",
     "fb-chat-api"
   ]
