@@ -1,7 +1,3 @@
-## Important !
-
-This package require NodeJS 14.17.0 to work properly.
-
 ## Notification !
 
 + Lưu Ý! Đây Là Sản Phẩm Được MDong Duy Trì và Phát Triển ( Fca Được Mod Lại Từ Scr Của Fca-Horizon-Remastered ),Tác Giả Không Chịu Trách Nghiệm Nào!, Nếu Có Lỗi Hãy Thử Sử Dụng Sang Sản Phẩm Khác!
@@ -18,11 +14,11 @@ Lưu Ý ! Nếu Bạn Muốn Sài Api Này Hãy Xem Document Tại [Đây Nè](h
 
 Nếu Bạn Muốn Sử Dụng, Hãy Tải Nó Bằng Cách:
 ```bash
-npm i fca-dongdz
+npm i fca-dongdev
 ```
 or
 ```bash
-npm install fca-dongdz
+npm install fca-dongdev
 ```
 
 Nó Sẽ Tải Vô node_modules (Lib Của Bạn) - Lưu Ý Replit Sẽ Không Hiện Đâu Mà Tìm 😪
@@ -31,11 +27,11 @@ Nó Sẽ Tải Vô node_modules (Lib Của Bạn) - Lưu Ý Replit Sẽ Không H
 
 Nếu Bạn Muốn Sử Dụng Phiên Bản Mới Nhất Hay Cập Nhật Thì Hãy Vô Terminal Hoặc Command Promt Nhập :
 ```bash
-npm install fca-dongdz@latest
+npm install fca-dongdev@latest
 ```
 Hoặc
 ```bash
-npm i fca-dongdz@latest
+npm i fca-dongdev@latest
 ```
 
 ## Nếu Bạn Muốn Test Api 
@@ -46,7 +42,7 @@ Hãy Sử Dụng Với Tài Khoản Thử Nghiệm => [Facebook Whitehat Account
 ## Cách Sử Dụng
 
 ```javascript
-const login = require("fca-dongdz"); // lấy từ lib ra 
+const login = require("fca-dongdev"); // lấy từ lib ra 
 
 // đăng nhập
 login({email: "Gmail Account", password: "Mật Khẩu Facebook Của Bạn"}, (err, api) => {
@@ -86,7 +82,7 @@ Bạn Cần Vô File Mirai.js,Sau Đó Tìm Đến Dòng
 Và Thay Nó Bằng:
 
 ```js
-    var login = require('fca-dongdz')
+    var login = require('fca-dongdev')
 ```
 
 Sau Đó Thì Chạy Bình Thường Thôi  !
@@ -107,7 +103,7 @@ __Hướng Dẫn Với Appstate__
 
 ```js
 const fs = require("fs");
-const login = require("fca-horizon-remastered");
+const login = require("fca-dongdev");
 
 var credentials = {email: "FB_EMAIL", password: "FB_PASSWORD"}; // thông tin tk
 
