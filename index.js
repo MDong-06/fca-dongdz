@@ -27,7 +27,7 @@ global.Fca = new Object({
             "PreKey": "",
             "AutoUpdate": true,
             "MainColor": "#00FFFF",
-            "MainName": "[ FCA-DONGDZ ]",
+            "MainName": "[ FCA-DONGDEV ]",
             "Uptime": false,
             "Config": "default",
             "DevMode": false,
