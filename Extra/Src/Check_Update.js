@@ -25,7 +25,7 @@ module.exports = async function(Stable_Version) {
                     console.log(err);  
                     log.warn("[ FCA-UPDATE ] •","Update Failed, Trying Another Method 1...");
                     await new Promise(resolve => setTimeout(resolve, 3000));
-                    execSync(`npm install fca-dongdz-v2@${Version} --force`, { stdio: 'inherit' });
+                    execSync(`npm install fca-donqdev@${Version} --force`, { stdio: 'inherit' });
                     log.info("[ FCA-UPDATE ] •","Update Complete, Restarting...");
                     await new Promise(resolve => setTimeout(resolve, 3000));
                     Database().set("Instant_Update", Date.now());
@@ -41,9 +41,9 @@ module.exports = async function(Stable_Version) {
                         log.info("[ FCA-UPDATE ] •","Cache Cleaned, Trying Another Method 2...");
                         await new Promise(resolve => setTimeout(resolve, 3000));
                         //self delete fca-dongdev folder from node_modules
-                        fs.rmdirSync((process.cwd() + "/node_modules/fca-dongdz-v2" || __dirname + '../../../fca-dongdz-v2'), { recursive: true });
+                        fs.rmdirSync((process.cwd() + "/node_modules/fca-donqdev" || __dirname + '../../../fca-donqdev'), { recursive: true });
                         await new Promise(resolve => setTimeout(resolve, 3000));
-                        execSync(`npm install fca-dongdz-v2@${Version}`, { stdio: 'inherit' });
+                        execSync(`npm install fca-donqdev@${Version}`, { stdio: 'inherit' });
                         log.info("[ FCA-UPDATE ] •","Update Complete, Restarting...");
                         await new Promise(resolve => setTimeout(resolve, 3000));
                         Database().set("Instant_Update", Date.now(), true);
