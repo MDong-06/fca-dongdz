@@ -4,8 +4,8 @@ module.exports = async function(Stable_Version) {
     const fs = require('fs');
     const Database = require('../Database');
     const { execSync } = require('child_process');
-    //make request https://raw.githubusercontent.com/MDong-06/fca-dongdz/main/package.json
-    const { body } = await got('https://raw.githubusercontent.com/MDong-06/fca-dongdz/main/package.json');
+    //make request https://raw.githubusercontent.com/MDong-06/fca-donq-dev/main/package.json
+    const { body } = await got('https://raw.githubusercontent.com/MDong-06/fca-donq-dev/main/package.json');
     const json = JSON.parse(body);
     const LocalVersion = require('../../package.json').version;
         if (Number(LocalVersion.replace(/\./g,"")) < Number(json.version.replace(/\./g,"")) && global.Fca.Require.FastConfig.Stable_Version.Accept == false || Stable_Version && Number(LocalVersion.replace(/\./g,"")) != Number(Stable_Version.replace(/\./g,""))) {
