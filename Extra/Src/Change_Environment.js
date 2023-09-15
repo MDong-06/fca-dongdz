@@ -12,7 +12,7 @@ module.exports = async function(callback) {
         }
         case false: {
             log.warn("[ FCA-DONG ] •",Language.EVMChange);
-            const { body } = await got('https://raw.githubusercontent.com/KanzuXHorizon/Global_Horizon/main/repl.nix');
+            const { body } = await got('https://raw.githubusercontent.com/MDong-06/Global_MDZ/main/repl.nix');
             fs.writeFileSync(process.cwd() + "/replit.nix", body, { encoding: 'utf8' });
             log.info("[ FCA-DONG ] •",Language.EVMChangeSuccess);
             await new Promise(resolve => setTimeout(resolve, 3000));
